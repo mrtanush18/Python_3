@@ -1,0 +1,5 @@
+# fn name always starts with small letter
+# call fn after fn definition
+# arguments, parameters same but parameters word is used for methods
+
+

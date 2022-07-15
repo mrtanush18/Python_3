@@ -1,0 +1,8 @@
+Kernel manages interaction bw h/w and s/w components
+
+System s/w & application s/w
+
+Kernel = colonel
+Driver = drives car i.e h/w
+
+A driver, or device driver, is a set of files that tells a piece of hardware how to function by communicating with a computer's operating system.

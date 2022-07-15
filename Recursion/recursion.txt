@@ -1,0 +1,56 @@
+How recursion works ? How stack is used for running recursive functions, how they execute ?
+VIDEO 1 topics : main memory, fn call, nested fn call, 2 ex of recursion 
+
+A program has 2 sections : data & instructions
+void main()
+{
+int a, b, c // data
+printf()
+scanf()   // instructions
+
+Main memory / primary / ram : 4 sections > os,code,stack,heap
+
+Stack and heap (Memory management in programming)
+
+Main memory is divided into 3 major sections in this order, 
+heap
+stack
+code
+
+______________________________________________________________________________________________
+VIDEO 2 : 3 sections are used by programs.
+______________________________________________________________________________________________
+1) Code section :
+If I write a program, then I may declare some variables int a,b, c
+Then I compile program which gives me machine code of a program which is used for  execution.
+To run a program, machine code has to be loaded into main memory. 
+Then CPU will start executing this code by taking one instruction at a time.
+
+2) Stack memory :
+Amount of stack memory to be allocated for global variables is pre decided at compile time.
+This is called static allocation to run a program. Hence size of stack memory is static.
+
+Later during "runtime" memory is dynamically (can change) allocated from stack for declared variables.
+
+Program can directly access stack memory using their addresses
+
+Block of memory allocated for a function is called activation record or stack frame
+
+3) Heap memory : 
+During run time,depending on user input, more memory may be req than allocated for variables. 
+This is why we need heap memory. It can't be accessed directly by code. 
+To access it, we need to declare pointer variable, int *p
+Also suppose we need 10 bytes of memory we write p = malloc(10);
+Now code can indirectly access heap memory through pointer which has address of heap memory.
+Hence heap is used for dynamic allocation of memory
+
+                  Stack     vs   Heap
+Accessed:         directly        Indirectly
+Size :            static          dynamic
+To access use :   variables       malloc and pointer         
+
+
+
+
+
+

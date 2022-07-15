@@ -1,0 +1,124 @@
+We want programs to occupy less memory, take less time
+
+Time complexity :
+Relation bw i/p size & running time 
+Number of steps we need to take to reach final solution
+We define number of steps with respect to size of i/p.
+
+Ex. 1) O(1)
+Calculate sum of 1st and last elements of array
+
+{2, 1 , 4, 7, 6}
+
+To add we have only 1 step : add arr[0] , arr[length-1]
+so n : no of elements, steps: no of steps to find solution
+n  steps
+5   1
+10  1
+100 1
+
+Steps will remain 1 so tc is constant or O(1)
+_________________
+2) O(n)
+
+Check if number 7 is in array or not
+3 5 4 1 7
+
+steps:
+1) start from first element of array & chk if this element is equal to 7 or not
+2) repeat till you find element, here in 5th step we find element = 7
+So no. of steps = no. of elements in array (linearly proportional)
+n  steps
+5   5
+10  10
+
+But what if 7 was present at beginning of array, does it mean tc is constant?
+No, as we assume whenever tc of a program is asked it is assumed that tc of worst case is asked
+Hence worst case tc is O(n), we took n steps tor reach solution
+No. of steps can be 3*n, 4*n+3 but tc will remain O(n) as they are linearly proportional to n
+_________________
+3) O(n^2)
+Suppose we are given n=3 and we have to create 2d array of 3*3 with consecutive inputs starting from 1 to create
+1 2 3
+4 5 6
+7 8 9
+
+for(i)
+    for(j)
+        arr[i][j] = num++;
+
+filling 1 positions of array is 1 step so no. of steps to fill array = 3*3 = 9
+Similarly to create array of size 5*5 , no. of steps to fill array= 5*5 = 25
+Hence, steps = n square (n ^ 2) for each case so tc is O(n^2)
+
+As a general rule, we calc tc by multiplying i/p sizes of nested loops
+
+for(i= 0; i<n; i++)
+    for(j=0; j<n; j++)
+so n*n
+
+if we have to create 2d array of n*m,
+for(i= 0; i<n; i++)
+    for(j=0; j<m; j++)
+so m*n
+_________________
+4) O(log(n))
+Seen in binary search, binary tree
+First we are given a sorted array with 8 elements 
+{1,2,3,4,5,6,7,8,9} find if 4 is present?
+
+Step 1) divide array into 2 halves
+1,2,3,4,5 --> discard
+6,7,8,9
+As 4 is found in 1st half discard 2nd half
+
+step 2) Further divide into 2 halves
+12 --> discard
+45
+
+step 3) Divide 45
+4  --> found req element
+5
+
+as we can see array is divided in half till we are left with single element
+so if have array of size n we will req max of log(n) steps to find element
+
+Summary :
+Binary Search : O(log(n))
+Stack & queue : O(1)
+Sorting algos : O(n(log(n))
+Build binary search tree from sorted array : O(n)
+Search in bst : O(log(n))
+
+
+
+
+Relation can be :
+1) Linear 
+(if we increase i/p size by 10 times running time will also increase 10 times)
+2) Quadratic 
+(if we increase i/p size by 2 times running time will also increase 4 times)
+3) Cubic 
+(if we increase i/p size by 2 times running time will also increase 8 times)
+// Code will be that much better whose running times grow slowly as i/p size increases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

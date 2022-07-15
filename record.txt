@@ -1,0 +1,211 @@
+1) 1st Feb : 9:35 to 10:40
+2) 2nd Feb : 9:30 to 10:34
+3) 3rd Feb : 9:30 to 10:32
+__________________________________________________________________________________________
+4) 7th Feb : 9:31 to 10:30
+5) 8th Feb : 9:40 to 10:45
+6) 9th Feb : 9:35 to 10:53
+7) 10th Feb : 9:37 to 10:40
+8) 11th Feb : 9:45 to 10:45
+__________________________________________________________________________________________
+9) 15th Feb : 9:30 to 10:30
+10) 16th Feb : 9:45 to 10:45
+11) 18th Feb : 9:45 to 10:45
+12) 19th Feb : 9:30 to 10:30
+__________________________________________________________________________________________
+13) 23rd Feb, Wed : 10:00 to 11:00
+14) 24th Feb, Thurs : 9:30 to 10:30
+__________________________________________________________________________________________
+15) 7th Mar, Mon : 9:30 to 10:35   QuickReverseList : hw 
+16) 8th March, Tue : 9:30 to 10:30 
+17) 9th March, Wed : 9:45 to 10:45  hw : nestedDict3x 
+18) 11th March, Fri : 9:45 to 10:45  Discussed abt nestedDict3x, why in OG code wrong o/p was coming
+__________________________________________________________________________________________
+19) 15th March, Tue : 9:45 to 10:45
+Corrected : ListToString.py
+Did MaxNestedListCompre2.py (FUNCTIONS)
+Solved SuperNestedDict.py (Print each step to chk till where you got values)
+(First used type method to find datatype of value, then eliminated dict values of type string or int using if condition)
+hw : cuboid.py
+
+20) 16th March, Wed : 9:45 to 10:45
+cuboid.py,understood normal way, converted to compre
+Understood which programs can be converted to list comprehension
+DictToList.py , hw = conv to list compre
+
+21) 18th March, Fri : ZipListToDict.py
+
+PAID
+__________________________________________________________________________________________
+
+22) 22th March, Tue : 9:45 to 11:00 
+23) 23rd March, Wed : 9:45 to 10:45
+24) 24th Mar, Thurs : 9:45 to 10:50 
+25) 25th Mar, Fri : 9:50 to 10:50 
+multiplyTuple.py,
+--> hw : TupletoDict.py & list, dict methods learn from w3, sir will send another website for methods
+
+> https://www.softwaretestinghelp.com/python-dictionary-methods/
+> https://www.analyticsvidhya.com/blog/2021/06/15-functions-you-should-know-to-master-lists-in-python/#:~:text=589.36-,min()%20function,-The%20min()%20function
+
+PAID 2400
+__________________________________________________________________________________________
+
+26) 28th Mar, Mon : 10 to 11
+dict_cpy.update(1 = 'ONE',2 = 'TWO') --> corrected, wrong in website.
+
+27) 30th Mar, Wed : 10 to 11
+AddTuples, UniqueItemsTuple.py
+
+28) 31st Mar, Thurs : 10 to 11
+PrintTupleOfSize.py, AddNtoTupleItems.py, No_2xNoneTuple.py
+
+29) 2nd Apr, Sat : cw/hw : 
+AddDigtsSortTuple, 
+SymmetricTuple.py, 
+AddNtoTupleCompre2
+
+PAID 2400
+__________________________________________________________________________________________
+
+30) 13th Apr, Wed : 9:45pm to 10:45pm
+
+31) 14th Apr, Thurs : 11:30am to 12:30, 10:15 to 11:15pm
+
+Total : 4hrs
+
+PAID 2400
+__________________________________________________________________________________________
+
+32) 18th Apr, Mon : 10:15 to 11:15
+> Started Functions : sumFirst10.py, add2Nos.py
+
+33) 19th Apr, Tue : 8:45 to 9:45
+> OverwriteList, max3nos, chkRange, hw.py
+
+34) 21st Apr, Thurs : 
+chkFreqCh, keyWordParameters, multiplyNos
+
+35) 22nd Apr, Fri : 9:45 to 10:45
+call.py, countcase, keyWordParameters2, returnPositive
+
+PAID 2400
+__________________________________________________________________________________________
+
+36) 28th Apr, Thurs : 9:45 to 10:50
+> Started Recursion : factorial, fibonacci, sum10Nos
+hw : fibonacci using recursion
+
+37) 30th Apr, Fri : 9:45 to 10:45
+
+38) 5th May, Fri : 10:15 to 11:15
+
+39) 7th May, Sat : 9:45 to 10:45
+
+PAID 2400
+_________________________________________________________________________________________
+
+39) 9th May, Mon : 9:45 to 10:45 
+
+40) 10th May, Tue : 9:45 to 10:45  
+op6, op7
+
+41) 11th May, Wed : 9:30 to 10:30
+op8, op9, op10
+
+PAID 1800
+_________________________________________________________________________________________
+
+42) 22nd May, Sun : 11:45 to 12:45
+op1.c, op2.c, op3.c (recursion in c)
+
+PAID 600
+_________________________________________________________________________________________
+
+43) 1st June, Wed : 10:00 to 11:00 > op4 to op7.c
+
+44) 2nd June, Thurs : 10:30 to 11:30 > op8 to op11.c
+
+45) 3rd June, Fri : 10:00 to 11:00 > maxList.py, product.py, sumDigits.py, op12.c
+
+46) 5th June, Sun : 10:00 to 11:00 > reverselist.py
+
+PAID 2400
+_________________________________________________________________________________________
+
+47) 6th June, Mon : 10:00 to 11:00 
+
+48) 7th June, Tue : 10:15 to 11:15
+
+49) 9th June, Thurs : 10:00 to 11:00 
+higher order fn, nxt wk TEST(interview in first 30 min, coding in rest) choose on fri/sat/sun 
+
+50) 10th June, Fri : 10:00 to 11:00
+new to new6.py, error in new6
+
+PAID 2400
+_________________________________________________________________________________________
+
+51) 14th June, Tue : corected sumNestedListReduce, maxMinReduce, sumListAccumulate
+
+52) 16th June, Thurs: filter fn
+
+53) 17th June, Fri: factListMap, encryptStringMap, filterString, revStringMap
+
+54) 18th June, Sat: In new2 retry simpler version of qt in new1 
+
+55) 19th June, Sun: test
+
+PAID 3000
+_________________________________________________________________________________________
+
+56) 20th June, Mon: 10:15 to 11:15 guests + more
+
+57) 21th June, Tue : 10 to 11 
+
+58) 23th June, Thurs : 10 to 11 
+
+59) 24th June, Fri : 10 to 11 new6
+
+60) 25th June, Sat : started oop, hw: study abt abstraction, encapsulation
+
+61) 26th June, Sun : inheritance, polymorphism
+
+PAID 3600
+_________________________________________________________________________________________
+
+62) 28th June, Tue
+
+63) 30th June, Thurs
+
+64) 1st July, Fri
+
+65) 2nd July, Sat
+
+PAID 2400
+_________________________________________________________________________________________
+
+66) 5th July, Tue
+
+67) 6th July, Wed : threeObj, threeObjMagic >> make obj creation dynamic
+
+68) 9th July, Sat : threeObjMagic solved, learnt many things
+
+69) 10th July, Sun : 5_phone > search phone, print details
+_________________________________________________________________________________________
+
+70) 11th July, Mon : study abt magic methods
+
+71) 12th July, Tue 
+
+72) 13th July, Wed : menu > apply in menu dynamic 
+
+73) 14th July, Thurs : 14, 15, 16
+_________________________________________________________________________________________
+Pending :
+_________________________________________________________________________________________
+> Chk AddNtoTupleCompre2 & ChFrequency in Functions
+> See # keep revising problems
+>> Order programs in each folder, add question, comments, o/p , dry run , draw stack tree
+>> Add unique concept in imp.md
+>> Matrix ops : in DP
