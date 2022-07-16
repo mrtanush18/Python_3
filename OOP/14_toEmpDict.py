@@ -18,4 +18,12 @@ emp1 = emp()
 
 emp1.showDetails()
 
+'''
+o/p:
+Enter name sam
+Enter department IT
+Enter age 23
 
+All details:
+{'name': 'sam', 'dept': 'IT', 'age': 23}
+'''

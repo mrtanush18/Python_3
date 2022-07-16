@@ -26,3 +26,7 @@ print(obj1.current)
 
 # print(obj2.current)
 
+# o/p :  
+# 3
+# 3
+# -10
