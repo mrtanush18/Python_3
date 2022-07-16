@@ -1,3 +1,5 @@
+# Multiple inhertitance
+
 class parent1:
     def __init__(self):
         self.str1 = input('Enter a word 1 ')

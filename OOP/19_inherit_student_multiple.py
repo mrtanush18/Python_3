@@ -1,3 +1,5 @@
+# Multiple inhertitance ex
+
 class personal:
     def __init__(self):
         self.id = input('Enter id: ')
