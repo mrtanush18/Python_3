@@ -1,4 +1,5 @@
-# Simple inheritance
+# Single Inheritance: 
+# Single inheritance enables a derived class to inherit properties from a single parent class, 
 
 class person:
     def __init__(self):

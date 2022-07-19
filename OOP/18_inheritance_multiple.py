@@ -1,4 +1,5 @@
-# Multiple inhertitance
+# Multiple inheritance
+# When a class can be derived from more than one base class this type of inheritance is called multiple inheritances. In multiple inheritances, all the features of the base classes are inherited into the derived class. 
 
 class parent1:
     def __init__(self):

@@ -5,12 +5,16 @@ class personal:
         self.id = input('Enter id: ')
         self.name = input('Enter name: ')
         self.gender = input('Enter gender: ')
+
+    def x(s):
+        print('hi')
+
 class educational:
     def __init__(self):
         self.branch = input('Enter branch: ')
         self.yop = int(input('Enter year of passing: '))
 
-class student:
+class student (personal, educational):
     def __init__(self):
         self.address = input('Enter address: ')
         self.contact = int(input('Enter contact no.: '))
@@ -30,6 +34,8 @@ class student:
 student1 = student()
 
 student1.print()
+
+student1.x()
 
 '''
 # o/p:
