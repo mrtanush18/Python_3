@@ -1,4 +1,0 @@
-
-> To install jupyter notebook: pip install notebook
-
-> Cmd to run it:  jupyter notebook
